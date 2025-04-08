@@ -1,5 +1,7 @@
 package br.com.alura.screenmatch.modelos;
 
+import br.com.alura.screenmatch.excecoes.ErroFormatoDeAnoException;
+
 public class Titulo implements Comparable<Titulo> {
 
     private String nome;
@@ -12,6 +14,19 @@ public class Titulo implements Comparable<Titulo> {
     public Titulo(String nome, int anoDeLancamento) {
         this.nome = nome;
         this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public Titulo(TituloOmdb meuTituloOmdb) {
+        this.nome = meuTituloOmdb.title();
+
+        // criando minha própria exceção
+        if (meuTituloOmdb.year().length() > 4) {
+            throw new ErroFormatoDeAnoException("Não consegui converter o ano, " +
+                    "por que, ele tem mais de 4 dígitos");
+        }
+
+        this.anoDeLancamento = Integer.valueOf(meuTituloOmdb.year());
+        this.duracaoEmMinutos = Integer.valueOf(meuTituloOmdb.runtime().replace(" min", ""));
     }
 
     public void exibeFichaTecnica() {
@@ -64,6 +79,13 @@ public class Titulo implements Comparable<Titulo> {
 
     public int getTotalDeAvaliacoes() {
         return this.totalDeAvaliacoes;
+    }
+
+    @Override
+    public String toString() {
+        return "(nome = " + nome +
+                ", anoDeLancamento = " + anoDeLancamento +
+                ", duracaoEmMinutos = " + duracaoEmMinutos + ")";
     }
 
     @Override

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/desafio/desafio.iml" filepath="$PROJECT_DIR$/desafio/desafio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio1_listas/desafio1_listas.iml" filepath="$PROJECT_DIR$/desafio1_listas/desafio1_listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio2_listas/desafio2_listas.iml" filepath="$PROJECT_DIR$/desafio2_listas/desafio2_listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio3_listas/desafio3_listas.iml" filepath="$PROJECT_DIR$/desafio3_listas/desafio3_listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio4_listas/desafio4_listas.iml" filepath="$PROJECT_DIR$/desafio4_listas/desafio4_listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio5_compras_cartao/desafio5_compras_cartao.iml" filepath="$PROJECT_DIR$/desafio5_compras_cartao/desafio5_compras_cartao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafioOrientacaoObjeto/desafioOrientacaoObjeto.iml" filepath="$PROJECT_DIR$/desafioOrientacaoObjeto/desafioOrientacaoObjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafiosOrientacaoObjeto2/desafiosOrientacaoObjeto2.iml" filepath="$PROJECT_DIR$/desafiosOrientacaoObjeto2/desafiosOrientacaoObjeto2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/futebol/futebol.iml" filepath="$PROJECT_DIR$/futebol/futebol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_curso.iml" filepath="$PROJECT_DIR$/.idea/java_curso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeiro_projeto/primeiro_projeto.iml" filepath="$PROJECT_DIR$/primeiro_projeto/primeiro_projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_music/project_music.iml" filepath="$PROJECT_DIR$/project_music/project_music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenmatch/screenmatch.iml" filepath="$PROJECT_DIR$/screenmatch/screenmatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/segundo_projeto/segundo_projeto.iml" filepath="$PROJECT_DIR$/segundo_projeto/segundo_projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/terceiro_projeto/terceiro_projeto.iml" filepath="$PROJECT_DIR$/terceiro_projeto/terceiro_projeto.iml" />
+    </modules>
+  </component>
+</project>
